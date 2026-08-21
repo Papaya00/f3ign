@@ -1,0 +1,155 @@
+
+body {
+	background: #cccccc url("https://feignn.neocities.org/plaid.jpg");
+	color: #43061d;
+	background-size: 50px;
+	font-size: 12px;
+	font-family: tahoma;
+	letter-spacing: 0.3;
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	color: 	#dddddd;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #beabab;
+	text-decoration: underline;
+	cursor: help;
+}
+
+p {
+ line-height: 23px; 
+ font-weight: bold;
+}
+
+.top {
+	background-color: #716369;
+	width: auto;
+	height: 17px;
+}
+
+.space {padding-top:11px;}
+
+h1 {
+	font-size: 46px;
+	color: #000000;
+	font-family: courier;
+	margin: 5px;
+	padding-left:7px;
+}
+
+h2 {
+	font-size: 11px;
+	color: #787878;
+	margin: 9px;
+	padding-left:12px;
+}
+
+.main {
+	width: 580px;
+	background: #ccc4c1;
+	padding: 0;
+	margin: 0 auto;
+
+}
+
+.content {
+	width: 540px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navlist {
+	padding: 0 0 9px 9px;
+	background-color: #716369;
+	padding-top: 3px;
+	text-align: left;
+}
+
+.navlist ul, .navlist li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+}
+
+.navlist a:link, .navlist a:visited {
+	line-height: 14px;
+	font-weight: bold;
+	margin: 0 10px 4px 10px;
+	text-decoration: none;
+	padding-bottom: 1px;
+}
+
+.navlist a:link#current, .navlist a:visited#current, .navlist a:hover {
+	border-bottom: 2px solid #312626;
+	padding-bottom: 1px;
+	background: transparent;
+}
+
+
+.post {
+	width: 555px;
+}
+
+.posttitle {
+	font-family: courier;
+	font-size: 21px;
+	padding: 2px;
+	border-bottom: 2px dashed;
+	letter-spacing: 0px;
+	text-align: right;
+	font-weight: bold;
+	color: #211414;
+	margin: 5px;
+}
+
+.date {
+	font-size: 10px;
+	margin-left: 16px;
+}
+
+.img {
+	float: left;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+.right {
+	float: right;
+	padding-top: 10px;
+	padding-right: 15px;
+}
+
+
+.info {
+	font-family: 'Verdana', 'Arial', Sans-Serif; 
+	font-size: 1em; 
+	background: url('https://feignn.neocities.org/plaid.jpg');
+	border: 0px solid #E3E4E4;
+	height: 21px;
+	background-size: 50px;
+	margin-left: -20px;
+	width: 580px;
+}
+
+.clear {
+	clear:both;
+	padding-top: 15px;
+}
+
+li {padding-top: 5px;}
+
+.footer {
+	border-top: 1px solid ;
+	margin: 25px auto 0px auto;
+	padding: 5px 0 6px 0;
+	text-align: center;
+	width: 500px;
+	font-size: 10px;
+}

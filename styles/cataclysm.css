@@ -1,0 +1,123 @@
+<div id="container">
+
+<div id="wrap">
+
+
+
+<div id="title">
+
+<!-- Title Starts -->
+
+YOUR SITE TITLE
+
+<!-- Title Ends -->
+
+</div>
+
+
+<div id="nav">
+<ul>
+
+<!-- Navigation Begins -->
+
+	<li><a href="">Link Here</a></li>
+	<li><a href="">Link Here</a></li>
+	<li><a href="">Link Here</a></li>
+	<li><a href="">Link Here</a></li>
+	<li><a href="">Link Here</a></li>
+
+<!-- Credits - Do not remove/edit -->
+
+	<li><a href="http://fainaruu.uni.cc/">Fainaru</a></li>
+	<li><a href="http://createblog.com/">Createblog</a></li>
+
+<!-- Navigation Ends -->
+
+</ul>
+
+</div>
+
+<div id="content">
+
+<!-- Content Begins -->
+
+<h1>Cataclysm by Fainaru</h1>
+<b>November 11, 2006</b><br>
+<i>And this is how I sell out</i>. It's not always that I get any drive at all to make 2 layouts within a weeks time, but November is that month that made it happen. With such a great response from <b>Concurrence</b>, I decided to create yet another FF12 titled layout, this time called <i>Cataclysm</i>. Illustrator, Photoshop and Notepad all made it happen and thank you for those who have actually <b>followed the terms</b>. My take on this issue is that you get enough freedom as it is with an editable title so why go and edit the CSS + layout image? If you're interested in editing anything at all, get the okay from me first (remembering to follow terms). Today is also Remembrance Day; let us pay respects to those who have lost their lives for our freedom.
+
+
+
+<br><p align="right"><b>Tested on Firefox, IE and Opera �</b> <a href="http://jigsaw.w3.org/css-validator/check/referer" title="Valid CSS 2.0"><b>Valid CSS 2.0</b></a></p><br>
+
+<h1>Terms</h1>
+<ul type="circle">
+<li>No redistributing this layout.</li>
+<li>Keep all credit links in tact.</li>
+<li>Leave the image + stylesheet as it is.</li>
+</ul>
+
+<br>
+
+<h1>Using this Layout</h1>
+<ul type="circle">
+<li>Use <a href="http://winzip.com">Winzip</a>/<b>Winrar</b> to extract the files out.</li>
+
+<li><b>Upload</b> the files into your website server.</li>
+<li>Follow the guildlines within this code to know where to insert content.</li>
+<li>To create multiple pages with the same design, simply copy and paste what is in code onto a new page.</li>
+<li>It is advised you know at least the basics of HTML to ensure the layout works.</li>
+<li>Any questions concerning the layout can be addressed <a href="http://z3.invisionfree.com/blinkzter/">here</a> or <a href="http://fainaruu.uni.cc/">here</a>.</li>
+
+<li>Remember that the Terms of Use always applies if you plan to use this layout.</li>
+<li>If you find the CSS too long, replace it with this stylesheet link:<br><p align="left"><link rel="stylesheet" type="text/css" href="http://freewebs.com/fainarucb/cataclysm/style.css"></p></li>
+</ul>
+<br>
+
+<blockquote>
+<h1>CSS Elements</h1>
+
+Font <b>Bold</b> <i>Italic</i> <u>Underline</u> <s>Strike</s> <a href="">Link</a><br><br>
+
+
+<form action="" method="post">
+
+<table>
+
+<tbody><tr>
+	<td><strong>Name</strong></td>
+	<td><input size="40" name="Name">
+</td></tr>
+
+<tr>
+	<td><strong>Website</strong></td>
+	<td><input size="40" name="Website">
+</td></tr>
+
+<tr>
+	<td><strong>Comment</strong></td>
+	<td><textarea name="Comment" cols="40" rows="7" class="inputsize"></textarea>
+</td></tr>
+
+<tr>
+
+	<td align="right" colspan="2">
+	<input type="submit" value="SUBMIT">
+	<input type="submit" value="CLEAR">
+	</td>
+</tr>
+
+
+
+</tbody></table>
+</form>
+
+</blockquote>
+
+<!-- Content Ends -->
+
+</div>
+
+
+</div>
+
+<!-- COPYRIGHTS - Do not remove past these lines -->

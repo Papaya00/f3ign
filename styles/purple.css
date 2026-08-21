@@ -1,0 +1,241 @@
+body {
+	background-color: #000;
+	background-image:url('https://feignn.neocities.org/paper2.jpg');
+    background-size: 499px;
+    background-repeat: repeat-y; 
+	font-family: tahoma;
+	font-size: 11px;
+	color: #000000;
+	line-height: 12px;
+	text-transform: none;
+	text-align: justify;
+}
+	
+
+
+
+table, td{
+font-family: tahoma; 
+color: #000000; 
+font-size: 13px;
+line-height: 11px;
+text-align: justify;
+background-color: transparent;
+}
+
+
+h1 { 
+	margin: 0px;
+	padding-right: 0px;
+	text-decoration: none;
+	font-family: tahoma;
+	color: #7c1cca;
+	font-size: 13px;
+	font-weight: none;
+	font-style: none;
+	letter-spacing: 0px;
+	background: transparent;
+	border-bottom: 1px dotted ;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 0px;
+	margin-top: 25px;
+	padding: 0px;
+	}
+
+h2{
+	margin: 0px;
+	padding-right: 0px;
+	text-decoration: none;
+	font-family: tahoma;
+	color: #d7baea;
+	font-size: 11px;
+	font-weight: none;
+	font-style: none;
+	letter-spacing: 0px;
+	background: transparent url('');
+	border-bottom: 1px dotted ;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	padding: 0px;
+	}
+
+h3{
+color: #000000;
+background-color: transparent;
+text-align:right;
+text-transform:normal;
+background-color: ;
+padding-left:1px;
+letter-spacing:0px;
+font-family: tahoma;
+font-size: 11px;
+font-style: none;
+font-weight:normal;
+line-height:9px;
+margin-bottom:0px;
+padding: 0px;
+margin-top: 0px;
+}
+
+
+
+
+
+a.nav, a.nav:link, a.nav:active, a.nav:visited{ 
+font-family: "tahoma";
+font-size:9px;
+color:#c97deb; 
+background-color: transparent;
+padding: 0px;
+text-decoration:none;
+font-weight: bold;
+text-transform:uppercase;
+letter-spacing: 0px; 
+text-align: left;
+display: block;
+line-height:9px; 
+border-left:0px solid #000000;
+padding-left: 1px;
+}
+
+a.nav:hover {
+font-family: "tahoma";
+font-size:9px;
+color:#000000; 
+background-color: #d9baea;
+padding: 0px;
+text-decoration:none;
+font-weight: bold;
+text-transform:uppercase;
+letter-spacing: 0px; 
+text-align: left;
+display: block;
+line-height:9px; 
+cursor: crosshair;
+border-left:0px solid #ffffff;
+padding-left: 1px;
+}
+
+
+
+
+a:visited, a:active, a:link {
+    color: #d87deb;
+    font-weight: bold;
+    text-decoration: none; }
+	
+a:hover {
+	color: #eabae1;
+	cursor: crosshair;
+	background-color: none;}
+
+img {border: 0px;}
+a:link img, a:active img, a:visited img {border:1px solid black;}
+a:hover img {border:1px solid #eabae3;}
+
+
+b, strong {color: #000000;}
+i {color: #000000;}
+U {color: #c25ccb;}
+
+ul{
+list-style-type: none;
+padding-left: 0;
+margin-left: 10px;
+}
+
+    i {
+        color: #986bac;
+    }
+    
+    label {
+        color:#e3a6ff;
+        font-weight: bold;
+		padding: 4px;
+}
+
+    
+li{
+background: url() left center no-repeat;
+padding-left: 10px;
+margin-bottom: 0px;
+}
+
+input {
+background-color: #ffffff;
+color: #000000;
+font-family: tahoma;
+font-size: 10px;
+line-height: 11px;
+border: 1px #000000 dotted;
+}
+
+textarea {
+background-color: #dbbaea;
+border:1px dotted #000000;
+color: #000000;
+font-family: verdana;
+font-size:10px;
+line-height: 15px;
+letter-spacing: 0.5px;
+width: 136px;
+height: 75px;
+}
+
+
+blockquote {
+	width:180px;
+	color: #000000;
+    background-color: #dbbaea;
+    border:1px solid #54198f;
+	font-family: times new roman;
+	font-size:10px;
+	line-height: 15px;
+	letter-spacing: 0.5px;
+	text-transform:normal;
+	font-weight:normal;
+	padding: 7px;
+}
+
+#content {
+    font-family: verdana;
+    color: #000;
+    font-size: 11.3px;
+    line-height: 15px;
+	position: absolute;
+	width: 296px;
+	left: 3px;
+	top: 309px;
+	z-index: 2;
+	margin-right: 2px;
+	margin-left: 2px;
+	text-align: justify;
+	padding: 0px;
+	padding-bottom: 10px;
+	}
+
+#menu {
+	color: #ffffff;
+	position: absolute;
+	width: 150px;
+	left: 356px;
+	top: 0px;
+	z-index: 0;
+	margin-right: 2px;
+	margin-left: 2px;
+	text-align: justify;
+	text-transform: normal;
+	padding: 0px;
+	}
+
+
+#rap {
+	position: absolute;
+	left: -379px;
+	top: 10px;
+	padding: 10px;
+	}
+    
