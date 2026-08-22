@@ -239,7 +239,7 @@ padding: 5px 0px 0px 0px;
 #box {
 width: 193px;
 height: 206px;
-background-image: url(https://feignn.neocities.org/styles/layouts/green2.gif);
+background-image: url(/f3ign/styles/layouts/green2.gif);
 background-repeat:no-repeat;
 color: #000;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -294,7 +294,7 @@ display: block;
 color:#69f1f9;
 cursor: default;
 text-decoration: none;
-background-image: url(https://feignn.neocities.org/styles/layouts/green8.gif);
+background-image: url(/f3ign/styles/layouts/green8.gif);
 border-bottom: 0.5px dashed #caff4a;
 }
 #banner {
@@ -327,7 +327,7 @@ padding: 0px 5px 0px 5px;
 color:#000;
 cursor: default;
 text-decoration: none;
-background-image: url(https://feignn.neocities.org/styles/layouts/green1.gif);
+background-image: url(/f3ign/styles/layouts/green1.gif);
 border-top: 15px solid #000;
 border-bottom: 5px solid #000;
 }
@@ -340,7 +340,7 @@ margin-top: -9px;
 letter-spacing: -1;
 text-align: center;
 letter-spacing: none;
-background-image: url(https://feignn.neocities.org/styles/layouts/green5.gif);
+background-image: url(/f3ign/styles/layouts/green5.gif);
 }
 h2 { font-family: Verdana;
 color: #dbdbdb;
@@ -358,7 +358,7 @@ font-size: 20px;
 text-align: left;
 font-weight: bold;
 letter-spacing: none;
-background-image: url(https://feignn.neocities.org/styles/layouts/green6.jpg);
+background-image: url(/f3ign/styles/layouts/green6.jpg);
 background-repeat: no-repeat;
 background-size: 543px;
 margin: 2px;
@@ -500,7 +500,7 @@ text-align: left;
 padding: 2px 2px 2px 2px;
 margin: 3px;
 float: right;
-background-image: url(https://feignn.neocities.org/styles/layouts/green7.gif);
+background-image: url(/f3ign/styles/layouts/green7.gif);
 background-repeat: no-repeat;
 }
 #side-box a { text-decoration: none;
