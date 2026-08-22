@@ -1,6 +1,6 @@
 
 body {
-	background: #cccccc url("https://feignn.neocities.org/plaid.jpg");
+	background: #cccccc url("/f3ign/storage/plaid.jpg");
 	color: #43061d;
 	background-size: 50px;
 	font-size: 12px;
@@ -130,7 +130,7 @@ h2 {
 .info {
 	font-family: 'Verdana', 'Arial', Sans-Serif; 
 	font-size: 1em; 
-	background: url('https://feignn.neocities.org/plaid.jpg');
+	background: url('/f3ign/storage/plaid.jpg');
 	border: 0px solid #E3E4E4;
 	height: 21px;
 	background-size: 50px;
