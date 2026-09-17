@@ -1,0 +1,201 @@
+<html>
+<title>hell</title>
+<center>
+<img style="margin-top: 20px; width: 246px;" src="https://feignn.neocities.org/feign-logo.png">
+   <br>
+    <div class="nav">
+<a href="/comic/.html">Releases</a>
+    </div>
+    
+    
+    
+    <p> <a href="https://feignn.neocities.org/comic/hell/"><img style="width: 55px;" src="https://feignn.neocities.org/comic/arrowfirst.png"></a> 
+    
+    &nbsp;&nbsp;&nbsp; <a href="https://feignn.neocities.org/comic/hell/4"><img style="width: 55px;" src="https://feignn.neocities.org/comic/arrowback.png"></a> 
+    
+    &nbsp;&nbsp;&nbsp; <a href="https://feignn.neocities.org/comic/hell/6"><img style="width: 55px;" src="https://feignn.neocities.org/comic/arrownext.png"></a> 
+    
+    &nbsp;&nbsp;&nbsp; <a href="https://feignn.neocities.org/comic/hell/7"><img style="width: 55px;" src="https://feignn.neocities.org/comic/arrowlast.png"></a></p>
+   
+
+   
+    <img id="main" src="https://feignn.neocities.org/comic/hell/feign03-rev5.png">
+
+    
+    </center>
+    
+<br>
+    
+    <div class="footer">
+    &#102;&#600;&#105;&#103;&#110; 2026 
+    </div>
+    
+    <br>
+
+</html>
+
+
+
+
+<style>
+    body {
+        background-size: 59px;
+        background-color: #000;
+    }
+     #main {
+        height:82%;
+        border: solid #4e4e4e;
+        border-width: 1px;
+    }
+    h1,h2 {
+        color: #b3d17e;
+        font-family: tahoma;
+        font-size: 26px;
+    }
+    
+     p3 {
+        color: #f0f8e1;
+        font-family: tahoma;
+        font-size: 26px;
+         text-decoration: underline dotted;
+    }
+    
+    h3,h4 {
+                color: #e9edd1;
+                font-family: courier;
+    }
+    
+    i {
+        font-size: 10.5px;
+    }
+        .notice {
+        border: double 3px #8abb63;
+        position: fixed;
+        border-radius: 8px;
+        padding: 14px;
+        width: 369px;
+        max-height: 50px;
+        margin-left: 600px;
+        margin-top: -3px;
+    }
+    
+    p {
+        color: #e1f4d2;
+        font-family: verdana;
+        font-size: 12.4px;
+    }
+    
+    p2 {
+        color: #fff;
+        font-size: 11px;
+        font-family: verdana;
+    }
+    
+    .nav {
+       color: #e1f4d2;
+        font-family: verdana;
+        font-size: 12.4px;   
+    }
+    
+
+    a {
+        color: #93c46e;
+        text-decoration: underline dotted;
+        font-size: 15px;
+    }
+    
+    .footer {
+             color: #e1f4d2;
+        font-family: verdana;
+        font-size: 12.4px; 
+        text-align: center;
+    }
+    
+    a:hover {
+        color: #fff;
+        text-decoration: underline dotted;
+        font-size: 15px;
+        animation: blinkingText 0.3s infinite;
+        cursor: crosshair;
+      
+  }
+
+  @keyframes blinkingText {
+    0% {
+      color: #000000;
+    }
+
+    49% {
+      color: #000000;
+    }
+
+    60% {
+      color: white;
+    }
+
+    99% {
+      color: white;
+    }
+
+    100% {
+      color: #000000;
+    }
+  }
+    }
+    
+    a:visited {
+        color: #eeeebb;
+    }
+    /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #54a079 #000000;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #54a079;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+    
+.crazy {
+  position: relative;
+  transition: .5s top;
+}
+
+</style>
+
+<script>
+crazyCaps();
+
+function crazyCaps() {
+    let crazyItems = document.querySelectorAll(".crazy");
+    for (let i = 0; i < crazyItems.length; i++) {
+      let crazyTextItem = crazyItems[i];
+      
+      let cnt = 0;
+      setInterval(() => {
+        let newText = crazyTextItem.textContent.substring(0, cnt).toLowerCase() + crazyTextItem.textContent[cnt].toUpperCase() + crazyTextItem.textContent.substring(cnt + 1, crazyTextItem.textContent.length).toLowerCase();
+        crazyTextItem.textContent = newText;
+
+        cnt += 1;
+
+        if (cnt > crazyTextItem.textContent.length - 1) {
+          cnt = 0;
+        }
+
+      }, 100);
+    }
+  }
+
+</script>
