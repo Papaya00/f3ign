@@ -1,0 +1,331 @@
+            @font-face {
+  font-family: 'stampGothic';
+  src: url('https://feignn.neocities.org/fonts/stampGothic.woff');
+}
+
+            body {
+              margin: auto;
+              background: #060606;
+	           background-size: 113px;
+	           font-family: verdana;
+	           font-size: 11px;
+	           background-image: url('https://feignn.neocities.org/chek2.jpg');
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            p,i,b,li{
+                color: #fff;
+            }
+            
+           p2 {
+        color: #fff;
+        font-size: 13px;
+        font-family: verdana;
+    }
+            
+            #container {
+                max-width: 607px;
+                margin: auto;
+                border: 9px solid #000;
+            }
+
+            #header {
+                width: 100%;
+                background-color: #303030;
+                height: 121px;
+                background-image: url('https://feignn.neocities.org/dark-black-grey-stripe.gif');
+                background-size: 145px;
+                border: 4px solid #000;
+            }
+
+
+           #header h1 {
+	float: left;
+	padding-top: 22px;
+	padding-left: 23px;
+	font-size: 63px;
+	letter-spacing: 3px;
+	font-family: 'stampGothic';
+    font-weight: normal;
+	color: #ffffff;
+}
+       
+
+            /*MENU*/
+           
+#menu {
+	width: 593px;
+	height: 28px;
+	text-transform: uppercase;
+	color: #eee;
+    font-family: verdana;
+    font-size: 12px;
+	margin: 0 auto;
+    border-bottom: solid 1px;
+    border-color: #000;
+ 
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  
+}
+
+    .updated {
+	margin: 0;
+	padding: 0 0 0 5px;
+    border: 1px solid;
+    border-color: #8abb63;
+    padding: 5px;
+	color:#9ca35d;
+	font-size: 9px;
+}
+            
+#menu li {
+	display: inline;   
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 118.48px;
+	height: 27px;
+	padding: 4px 0 0 0;
+	background-color: #000;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	color: #54a079;	
+    border-left: solid 1px #000;
+    border-right: solid 1px #000;
+    border-color: #444;
+
+
+}
+
+#menu a:hover, #menu .active a {
+	background: url(https://file.garden/adxt0hdfCBC6Cm2x/shine2.png);
+	font-size: larger;
+	color: #FFFFFF;
+}
+
+            #flex {
+                display: flex;
+            }
+
+
+            .side {
+                background-color: #0c0c0c;
+                width: 179px;
+                padding: 20px;
+                font-size: smaller;
+            }
+
+
+
+            main {
+                background-color: #0c0c0c;
+                flex: 1;
+                padding: 20px;
+                order: 2;
+            }
+
+
+         #side2 {
+                order: 1;
+            }
+
+
+            footer {
+                background-color: #000;
+                width: auto;
+                height: 31px;
+                color:#8abb63;
+                padding: 10px;
+                text-align: center;
+            }
+
+ h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+	color: #8c8c8c;
+}
+
+      
+            strong {
+                color: #fff;
+            }
+
+            .content2 {
+
+                padding: 10px;
+            }
+
+
+            #topBar {
+                width: 100%;
+                height: 30px;
+                padding: 10px;
+                font-size: smaller;
+                background-color: #13092D;
+            }
+
+
+
+
+            @media only screen and (max-width: 1056px) {
+                #flex {
+                    flex-wrap: wrap;
+                }
+
+                side {
+                    width: 100%;
+                }
+
+                main {
+                    order: 1;
+                }
+
+                #side2 {
+                    order: 2;
+                }
+            }
+            
+                /** LINKS **/
+#links {
+    border: 1px double #8abb63;
+    width: 100%;
+     border-spacing: 0;
+}
+
+
+  #links th {
+    color: #cef8ac;
+    font-family: ms ui gothic;
+    letter-spacing: 9px;
+    border: 1px double #8abb63;
+    font-weight: bold;
+    font-size: 19px;
+  }
+  
+#links td {
+  
+    border-bottom: 1px solid #8abb63;
+    font-family: verdana;
+    font-size: 14px;
+    color: #fff;
+    border-right: 1px double #8abb63;
+    padding: 2px;
+}
+
+#links td:nth-child(even){
+    width: 72px;
+    font-size: 12px;
+    line-height: 17px;
+}
+            
+    .posts {
+        padding: 2px;
+        width: 340px;
+        margin-left: ;
+        margin-top: 8px;
+    }
+      a {
+        color: #93c46e;
+        text-decoration: underline dotted;
+        font-weight: bold;
+    }
+    
+    a:hover {
+        color: #fff;
+        text-decoration: underline solid;
+        font-family: ms ui gothic;
+        text-transform: uppercase;
+        cursor: help;
+    }
+    
+
+    
+    a:visited {
+        color: #b9b9b9;
+    }
+    /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #54a079 #000000;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #54a079;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+    
+.crazy {
+  position: relative;
+  transition: .5s top;
+}
+ 
+  @keyframes blinkingText {
+    0% {
+      color: #000000;
+    }
+
+    49% {
+      color: #000000;
+    }
+
+    60% {
+      color: white;
+    }
+
+    99% {
+      color: white;
+    }
+
+    100% {
+      color: #000000;
+    }
+  }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green; 
+}
+
+::selection {
+  background-color: #fff;
+  color: #000;
+}
+
+.hover_image:hover {text-decoration: none} 
+.hide {display:none}
+.hover_image:hover img:first-child{display:none}
+.hover_image:hover img:last-child{display:inline-block}}
+    
+     
+  #masha {
+    position: fixed;
+    margin-left: 219px;
+    margin-top: 194px;
+  }
+  
