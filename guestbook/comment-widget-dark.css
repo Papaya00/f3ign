@@ -1,0 +1,371 @@
+/*
+    Below you will be able to freely customize every aspect of the comment widget.
+    Most aspects of the widget are 100% able to be customized in CSS, but for strong structural changes,
+    you may have to edit the JavaScript file.
+
+    These are all the classes and IDs at your disposal!
+    Classes have a c- at the start and IDs have a c_
+    You don't need every single one for a good theme, but I tried to give as many options as possible!
+*/
+/*
+    Containers:
+        #c_widget - The container <div> for the entire widget
+        #c_inputArea - The wrapper <div> around the form
+        #c_container - The wrapper <div> around all the comments
+
+    The input form:
+        #c_form - The whole input <form>
+        #c_widgetTitle - The <h2> title at the top of the form
+
+        .c-inputWrapper- All <div> wrappers for each label/input pair
+        .c-label - All <label>s
+        .c-input - All <input>s
+
+        #c_nameWrapper - The wrapper <div> for the name field
+        .c-nameLabel - The <label> for the name field
+        .c-nameInput - The <input> for the name field
+
+        #c_websiteWrapper - The wrapper <div> for the website field
+        .c-websiteLabel - The <label> for the website field
+        .c-websiteInput - The <input> for the website field
+
+        #c_textWrapper - The wrapper <div> for the text field
+        .c-textLabel - The <label> for the text field
+        .c-textInput - The <input> for the text field
+
+        #c_submitButton - The submit button (It's an <input> element with a type of "submit")
+        #c_replyingText - The text <span> that displays when a user is replying to a comment
+
+    The comment section:
+        .c-comment - All comment <div>s
+        .c-reply - All reply <div>s (contained within parent comment <div>s)
+        .c-replyContainer - The wrapper <div> for all replies
+        .c-name - The name of the person submitting the comment/reply (an <h3> element)
+        .c-timestamp - The timestamp of when the comment/reply was made (a <span> element)
+        .c-site - The website linked at the top of the comment/reply (an <a> element)
+        .c-text - The actual text body of the comment/reply (a <p> element)
+        .c-replyButton - All reply <button>s
+        .c-expandButton - The <button>s to reveal/hide replies (These only show if s_collapsedReplies is set to true in the JS)
+        
+        #c_pagination - The <div> wrapper for the pagination at the bottom (Only shows if there's more than one page)
+        .c-paginationButton - Both left and right directional <button>s
+        #c_leftButton - The left <button>
+        #c_rightButton - The right <button>
+*/
+
+/* Main */
+ @font-face {
+            font-family: 'nemo';
+            src: url('https://f3ign.com/fonts/Nemo.woff');
+        }
+
+body {
+background-color: #000;
+font-family:  verdana;
+background-image: url('https://file.garden/adxt0hdfCBC6Cm2x/bridge.jpg');
+background-size: cover;
+background-position: center;
+margin: auto;
+font-size: 10px;
+}
+
+
+#c_widget {
+    box-sizing: border-box;
+    width: 501px;
+    padding: 49px;
+    height: 100vh;
+    overflow: none;
+    background-size: 94px;
+    background-attachment: fixed;
+    font-size: 11.5px;
+    color: #baa379;
+}
+
+#c_widget button, #c_widget input[type=submit] {
+    padding: 4px;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+	text-align: center;
+    background-color: #271b06;
+    color: #d2b57d;
+    border-radius: 1px;
+    border: 1px solid #675428;
+}
+#c_widget button:hover, #c_widget input[type=submit]:hover {
+    color: #e4c161;
+    border: 1px solid #d3a81e;
+}
+#c_widget button:disabled, #c_widget input[type=submit]:disabled {opacity: 60%;}
+#c_widget button:disabled:hover, #c_widget input[type=submit]:disabled:hover {
+    color: #f10000;
+    border: 1px solid white;
+}
+
+/* Input section */
+#c_inputDiv {
+    margin-bottom: 35px;
+    padding: 7px;
+    width: 337px;
+    border-radius: 2px;
+    background-color: #262218;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+#c_widgetTitle {
+    margin: -5px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    font-family: ;
+    font-weight: bold; 
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.c-inputWrapper {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: left;
+    padding: 3px;
+}
+.c-input {
+    padding: 2px;
+    border: 0px solid #dcdcdc;
+    color: #eddd84;
+    width: 325px;
+    background-color: #100e09;
+	outline: none;
+}
+.c-input:focus {
+    border: 1px solid #ffed66;
+}
+
+
+.c-textInput {
+    width: 325px;
+    color: #eddd84;
+    resize: none;
+}
+#c_submitButton {
+    display: block; 
+    margin-right: auto; 
+}
+#c_replyingText {
+    margin-top: 8px;
+    color: #dacf8e;
+    text-align: left;
+}
+
+/* Comment section */
+.c-comment {
+            background-color: #262218;
+            padding: 4px;
+            width: 345px;
+            color: #eddd84;
+            margin-top: 10px;
+            text-align: left;
+            border: 1px solid black;
+            border-radius: 0px;
+}
+.c-reply {
+    background-color: #1b1604;
+            padding: 3px;
+            color: #baa379;
+            margin-top: 7px;
+            border: 1px solid black;
+            border-radius: 0px;
+
+}
+.c-reply:last-child {margin-bottom: 0;}
+.c-replyContainer {
+    margin-left: -7px;
+    width: 99%;
+    margin-top: 4px;
+    padding: 7px;
+}
+
+.c-name {
+    display: inline-block;
+    margin: 0;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #e9cd9a;
+    margin-top: 1px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+.c-site {
+    text-transform: lowercase;
+    text-decoration: none;
+    color: #b8b9be;
+}
+
+
+.c-site:hover {color: white;}
+.c-timestamp {
+    float: right;
+    opacity: 94%;
+}
+.c-text {
+    margin: 0;
+    padding: 10px;
+    font-size: 13px;
+    width: 94%;
+    text-align: justify;
+    color: #e2d08f;
+}
+
+/* Pagination */
+#c_pagination {text-align: center;}
+.c-replyButton {
+    margin-top: 10px;
+    margin-right: 4px;
+}
+.c-expandButton {
+    margin-top: 10px;
+    margin-left: 4px;
+}
+.c-paginationButton {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+ /*txt effects*/
+        
+.text-focus-in {
+	-webkit-animation: text-focus-in 0.2s steps(9, end) 0.3s both;
+	        animation: text-focus-in 0.6s steps(6, end) 0.2s both;
+}
+
+ /* Generated by Animista on 2026-7-12 4:51:54*/
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(8px);
+            filter: blur(8px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(9px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+        
+        /*txt effects 2*/
+        
+        .text-focus-in1 {
+	-webkit-animation: text-focus-in 2.1s steps(30, end) 0.3s both;
+	        animation: text-focus-in 1.3s steps(26, end) 0.2s both;
+}
+
+
+@-webkit-keyframes text-focus-in1 {
+  0% {
+    -webkit-filter: blur(8px);
+            filter: blur(8px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in1 {
+  0% {
+    -webkit-filter: blur(9px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+        /*glow txt*/
+        
+.glow {
+  font-size: 80px;
+  color: #261204;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #c9e6f9, 0 0 20px #c09182, 0 0 30px #cbc000, 0 0 40px #853b00, 0 0 50px #9f863c, 0 0 60px #423e29, 0 0 70px #ffd968;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #e2e1ae, 0 0 30px #c8b454, 0 0 40px #ffe04d, 0 0 50px #ffd94d, 0 0 60px #726034, 0 0 70px #600d0d, 0 0 80px #784a34;
+  }
+}
+   p2 {
+            font-family: 'nemo';
+            color: #ddd;
+            margin-left: 420px;
+            letter-spacing: 4px;
+            font-weight: bolder;
+
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline dashed 2px #000;
+        }
+        
+        p3 {
+            font-family: 'tahoma';
+            font-weight: bolder;
+            margin-left: 150px;
+
+        }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #474688 #000000;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #302f5b;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+::selection {
+    background-color: #fff;
+    color: #000;
+}
