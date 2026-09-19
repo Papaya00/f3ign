@@ -1,6 +1,7 @@
 
 body {
-	background-image: #333 url('/plaid.jpg');
+	background-color: #333;
+	background-color: url('/storage/');
 	color: #43061d;
 	background-size: 50px;
 	font-size: 12px;
@@ -51,7 +52,7 @@ h2 {
 
 .main {
 	width: 580px;
-	background: #ccc4c1;
+	background-color: #ccc4c1;
 	padding: 0;
 	margin: 0 auto;
 
@@ -130,7 +131,8 @@ h2 {
 .info {
 	font-family: 'Verdana', 'Arial', Sans-Serif; 
 	font-size: 1em; 
-	background-image: url('/plaid.jpg');
+	background-color: #ccc4c1;
+	background-image: url('/storage/plaid.jpg');
 	border: 0px solid #E3E4E4;
 	height: 21px;
 	background-size: 50px;
