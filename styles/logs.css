@@ -1,6 +1,6 @@
+
 body {
-	background-color: #333;
-	background-image: url('/storage/plaid.jpg');
+	background: #cccccc url("https://feignn.neocities.org/plaid.jpg");
 	color: #43061d;
 	background-size: 50px;
 	font-size: 12px;
@@ -51,7 +51,7 @@ h2 {
 
 .main {
 	width: 580px;
-	background-color: #ccc4c1;
+	background: #ccc4c1;
 	padding: 0;
 	margin: 0 auto;
 
@@ -94,7 +94,6 @@ h2 {
 
 
 .post {
-	background-color: #ccc4c1;
 	width: 555px;
 }
 
@@ -131,6 +130,7 @@ h2 {
 .info {
 	font-family: 'Verdana', 'Arial', Sans-Serif; 
 	font-size: 1em; 
+	background: url('https://feignn.neocities.org/plaid.jpg');
 	border: 0px solid #E3E4E4;
 	height: 21px;
 	background-size: 50px;
