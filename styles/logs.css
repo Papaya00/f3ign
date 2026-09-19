@@ -1,7 +1,6 @@
 
 body {
-	background-color: #cccccc;
-	background-image:  url('/storage/plaid.jpg');
+	background: url('/storage/plaid.jpg');
 	color: #43061d;
 	background-size: 50px;
 	font-size: 12px;
