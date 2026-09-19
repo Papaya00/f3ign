@@ -249,7 +249,7 @@ line-height: 13px;
 text-align: left;
 float:left;
 margin-left: 110px;
-margin-top: -556px;
+margin-top: -456px;
 padding: 5px;
 }
 #box a { text-decoration: none;
@@ -264,7 +264,7 @@ background-color: #4affe8;
 .butt {
     color: #ddd;
     margin-left: 137px;
-    margin-top: -235px;
+    margin-top: 5px;
 }
 
 
@@ -328,7 +328,7 @@ padding: 0px 5px 0px 5px;
 color:#000;
 cursor: default;
 text-decoration: none;
-background-image: url('https://f3ign.com/styles/layouts/green1.gif');
+background-image: url('layouts/green1.gif');
 border-top: 15px solid #000;
 border-bottom: 5px solid #000;
 }
