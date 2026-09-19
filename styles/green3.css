@@ -231,9 +231,9 @@ font-weight: bold;
 float: left;
 width: 200px;
 height: 42px;
-background-image: url();
+background-image: url('layouts/green7.png');
 margin-left: 110px;
-margin-top: -325px;
+margin-top: -257px;
 padding: 5px 0px 0px 0px;
 }
 #box {
