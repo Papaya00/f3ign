@@ -47,7 +47,7 @@ const s_fixRarebitIndexPage = true; // If using Rarebit, change to true to make 
 const s_wordFilterOn = true; // True for on, false for off
 const s_filterReplacement = '****'; // Change what filtered words are censored with (**** is the default)
 const s_filteredWords = [ // Add words to filter by putting them in quotes and separating with commas (ie. 'heck', 'dang')
-    'fag', 'f4g', 'f49' , 'nigger', 'N1gger' , 'tranny' , 'tr4nny' , 'tr4nni' , 'trannie' , 'n1gger' , 'faggot' , 'fa990t' , 'fa99ot' , 'f4gg0t' , 'dyke' , 'spic' , '1488' 
+   'nigger','1488','faggot' 
 ]
 
 // Text - Change what messages/text appear on the form and in the comments section (Mostly self explanatory)
