@@ -11,23 +11,24 @@
 <center>
 
 <div class="container">
-
-  <img src="/storage/characterpage.png" class="background-image">
-
-<a href="masha"><img src="/storage/masha-button.gif" class="animated-gif"></a>
-
-<a href="catherine"><img src="/storage/catherine-button.gif" class="animated-gif2"></a>
-
-<a href="dill"><img src="/storage/dill-button.gif" class="animated-gif3"></a>
-
-<a href="quinn"><img src="/storage/quinn-button.gif" class="animated-gif4"></a>
   
-<a href="vicky"><img src="/storage/vicky-button.gif" class="animated-gif5"></a>
+  <p id="back"><a  onclick="history.back()">&larr; back</a></p>
+
+  <div class="background-image"></div>
+
+<a href="masha"><img src="/storage/masha-button.gif" class="animated-gif" id="char"></a>
+
+<a href="catherine"><img src="/storage/catherine-button.gif" class="animated-gif2" id="char"></a>
+
+<a href="dill"><img src="/storage/dill-button.gif" class="animated-gif3" id="char"></a>
+
+<a href="quinn"><img src="/storage/quinn-button.gif" class="animated-gif4" id="char"></a>
+  
+<a href="vicky"><img src="/storage/vicky-button.gif" class="animated-gif5" id="char"></a>
 
 </center>
 
 
-  <p style="font-size: 20px;"><a onclick="history.back()">&laquo;-----</a></p>
 
 </div>
 
@@ -41,52 +42,59 @@
   font-family: 'verdana', sans-serif;
   background-color: #000000;
   color: #8fb093;
+  max-width: 3000px
 }
 .container {
+  margin-top: -257px;
   position: relative;
-  width: 90px; 
-  height: 100px; 
+  background-size: cover;
+  background-image: url('/f3ign-main/storage/characterpage.png');
 }
 
+  #char {
+    margin-top: -70px;
+    margin-left: 157px;
+  }
+  
 .background-image {
   position: relative;
   top: -120;
   left: -100;
   width: 83%;
-  height: 180%;
+  height: 200%;
   object-fit: center; 
 }
 
 .animated-gif {
   position: absolute;
-  top: 90px; 
-  left: 380px; 
+  top: 63px; 
+  left: 433px; 
   z-index: 1; /* Ensure GIF is on top */
 }
 
 .animated-gif2 {
   position: absolute;
-  top: 270px; 
-  left: 229px; 
+  top: 256px; 
+  left: 246px; 
   z-index: 1; /* Ensure GIF is on top */
 }
 .animated-gif3 {
   position: absolute;
-  top: 485px; 
-  left: 390px; 
+  top: 436px; 
+  left: 514px; 
   z-index: 1; /* Ensure GIF is on top */
 
 }
 .animated-gif4 {
   position: absolute;
-  top: 725px; 
-  left: 200px; 
+  top: 606px; 
+  left: 230px; 
   z-index: 1; /* Ensure GIF is on top */
 }
 .animated-gif5 {
   position: absolute;
-  top: 930px; 
-  left: 480px; 
+  top: 791px; 
+  left: 491px; 
   z-index: 1; /* Ensure GIF is on top */
 }
 .animated-gif6{
@@ -121,8 +129,84 @@ a:active {
   text-decoration: underline;
 }
 
+  #back {
+    margin-top: 219px;
+    margin-left: -990px;
+    color: #a2ff00;
+    font-weight: ;
+    border: 1px #222;
+    font-size: 22px;
+    position: static ;
+  }
 
 
+
+  /*for smaller screens*/
+  
+   @media only screen and (max-width: 900px) { 
+     body {
+  font-family: 'verdana', sans-serif;
+  background-color: #000000;
+  color: #8fb093;
+}
+.container {
+  margin-top: -100px;
+  position: relative;
+  background-size: cover;
+  background-position: left;
+}
+.animated-gif {
+  position: absolute;
+  top: 90px; 
+  left: -107px; 
+  z-index: 1; /* Ensure GIF is on top */
+}
+
+.animated-gif2 {
+  position: absolute;
+  top: 270px; 
+  left: -107px; 
+  z-index: 1; /* Ensure GIF is on top */
+}
+.animated-gif3 {
+  position: absolute;
+  top: 485px; 
+  left: -107px; 
+  z-index: 1; /* Ensure GIF is on top */
+
+}
+.animated-gif4 {
+  position: absolute;
+  top: 725px; 
+  left: -107px; 
+  z-index: 1; /* Ensure GIF is on top */
+}
+.animated-gif5 {
+  position: absolute;
+  top: 930px; 
+  left: -107px; 
+  z-index: 1; /* Ensure GIF is on top */
+}
+.animated-gif6{
+  position: absolute;
+  top: 1185px; 
+  left: 310px; 
+  z-index: 1; /* Ensure GIF is on top */
+}
+     
+
+       #back {
+    margin-top: 104px;
+    margin-left: 477px;
+    color: #a2ff00;
+    font-weight: bold;
+    border: 1px #222;
+    font-size: 25px;
+    position: absolute;
+  }
+     }
+  }
+  
 </style>
 
 <br>
