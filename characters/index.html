@@ -11,11 +11,11 @@
 <center>
 
 <div class="container">
+
+
   
-  <p><a id="back" onclick="history.back()">&larr; back</a></p>
-
   <div class="background-image"></div>
-
+  
 <a href="masha"><img src="/storage/masha-button.gif" class="animated-gif" id="char"></a>
 
 <a href="catherine"><img src="/storage/catherine-button.gif" class="animated-gif2" id="char"></a>
@@ -26,13 +26,12 @@
   
 <a href="vicky"><img src="/storage/vicky-button.gif" class="animated-gif5" id="char"></a>
 
-</center>
-
-
 
 </div>
 
-
+  <div class="button">
+<a id="back" style="">&larr; back</a>
+  </div>
 
 <!--CSS-->
 
@@ -45,14 +44,14 @@
   max-width: 3000px
 }
 .container {
-  margin-top: -257px;
+  margin-top: -50px;
   position: relative;
   background-size: cover;
   background-image: url('/storage/characterpage.png');
 }
 
   #char {
-    margin-top: -70px;
+    margin-top: -51px;
     margin-left: 157px;
   }
   
@@ -130,16 +129,19 @@ a:active {
 }
 
   #back {
-    margin-top: 219px;
-    margin-left: -990px;
+    margin-left: -42%;
     color: #a2ff00;
     font-weight: ;
-    border: 1px #222;
     font-size: 22px;
-    position: static ;
+    position: absolute ;
   }
 
+  .button {
+        margin-top: -88%;
+        width: 90px;
+        height: 90px;
 
+  }
 
   /*for smaller screens*/
   
@@ -162,6 +164,10 @@ a:active {
   z-index: 1; /* Ensure GIF is on top */
 }
 
+  #char {
+    margin-top: 75px;
+  }
+     
 .animated-gif2 {
   position: absolute;
   top: 270px; 
@@ -195,14 +201,19 @@ a:active {
 }
      
 
-       #back {
-    margin-top: 104px;
-    margin-left: 477px;
+  #back {
+    margin-left: -42%;
     color: #a2ff00;
-    font-weight: bold;
-    border: 1px #222;
-    font-size: 25px;
-    position: absolute;
+    font-weight: ;
+    font-size: 22px;
+    position: absolute ;
+  }
+
+  .button {
+        margin-top: -171%;
+        width: 90px;
+        height: 90px;
+
   }
      }
   }
