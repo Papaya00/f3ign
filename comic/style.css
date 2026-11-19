@@ -101,8 +101,8 @@ padding: 10px;
 }
 
 .comic-box, .header, .comment-box, .page-navigation {
-  padding: 2px;
-  width: 50%;
+  padding: 1px;
+  width: 65%;
   }
   
 .comment-box {
