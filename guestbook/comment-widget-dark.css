@@ -54,32 +54,31 @@
 */
 
 /* Main */
- @font-face {
-            font-family: 'cafe';
-            src: url('https://f3ign.com/fonts/caffelat.woff');
-        }
 
 body {
 background-color: #000;
-font-family:  verdana;
-background-image: url('https://file.garden/adxt0hdfCBC6Cm2x/bridge.jpg');
-background-size: cover;
+font-family: verdana;
+background-size: 120px;
 background-position: center;
 margin: auto;
-font-size: 10px;
 }
 
+p {
+    color: #ddd;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
 
 #c_widget {
     box-sizing: border-box;
-    width: 501px;
+    width: 507px;
     padding: 49px;
     height: 100vh;
     overflow: none;
     background-size: 94px;
     background-attachment: fixed;
-    font-size: 11.5px;
-    color: #baa379;
+    font-size: 11px;
+    color: #9ab5e2;
 }
 
 #c_widget button, #c_widget input[type=submit] {
@@ -88,30 +87,28 @@ font-size: 10px;
     font-size: 12px;
     text-decoration: none;
 	text-align: center;
-    background-color: #271b06;
-    color: #d2b57d;
+    background-color: #9bb2da;
+    color: #1e5186;
     border-radius: 1px;
-    border: 1px solid #675428;
+    border: 1px solid #4c8fff;
 }
 #c_widget button:hover, #c_widget input[type=submit]:hover {
-    color: #e4c161;
-    border: 1px solid #d3a81e;
+    color: #0071ff;
+    border: 1px solid #4c8fff;
 }
 #c_widget button:disabled, #c_widget input[type=submit]:disabled {opacity: 60%;}
 #c_widget button:disabled:hover, #c_widget input[type=submit]:disabled:hover {
     color: #f10000;
-    border: 1px solid white;
+    border: 1px solid #f00;
 }
 
 /* Input section */
 #c_inputDiv {
-    margin-bottom: 35px;
+    margin-bottom: 24px;
     padding: 7px;
-    width: 337px;
-    border-radius: 2px;
-    background-color: #262218;
-    border: 1px solid black;
-    border-radius: 0px;
+    width: 406px;
+    background-color: #011;
+    border: 1px solid #819dcc;
 }
 
 #c_widgetTitle {
@@ -134,20 +131,26 @@ font-size: 10px;
 }
 .c-input {
     padding: 2px;
-    border: 0px solid #dcdcdc;
-    color: #eddd84;
-    width: 325px;
-    background-color: #100e09;
+    border: 1px solid #3c609a;
+    color: #a4c6ff;
+    width: 394px;
+    font-family: verdana;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    background-color: #4f72ac;
 	outline: none;
 }
 .c-input:focus {
-    border: 1px solid #ffed66;
+    border: 2px solid #000c7d;
 }
 
 
 .c-textInput {
-    width: 325px;
-    color: #eddd84;
+    width: 394px;
+    color: #a4c6ff;
+    font-family: verdana;
+    letter-spacing: 0.5px;
+    font-size: 12px;
     resize: none;
 }
 #c_submitButton {
@@ -156,36 +159,38 @@ font-size: 10px;
 }
 #c_replyingText {
     margin-top: 8px;
-    color: #dacf8e;
+    color: #17388a;
     text-align: left;
 }
 
 /* Comment section */
 .c-comment {
-            background-color: #262218;
+            background-color: #011;
             padding: 4px;
-            width: 345px;
-            color: #eddd84;
+            width: 413px;
+            color: #819dcc;
             margin-top: 10px;
             text-align: left;
-            border: 1px solid black;
+            border: 1px solid #819dcc;
             border-radius: 0px;
 }
 .c-reply {
-    background-color: #1b1604;
-            padding: 3px;
-            color: #baa379;
-            margin-top: 7px;
-            border: 1px solid black;
+            background-color: #000;
+            padding: 4px;
+            width: 386px;
+            color: #819dcc;
+            margin-top: 3px;
+            text-align: left;
+            border: 1px solid #a4c6ff;
             border-radius: 0px;
 
 }
 .c-reply:last-child {margin-bottom: 0;}
 .c-replyContainer {
-    margin-left: -7px;
-    width: 99%;
-    margin-top: 4px;
-    padding: 7px;
+    margin-left: -5px;
+    width: 100%;
+    margin-top: 7px;
+    padding: 5px;
 }
 
 .c-name {
@@ -193,7 +198,8 @@ font-size: 10px;
     margin: 0;
     font-weight: normal;
     letter-spacing: 1px;
-    color: #e9cd9a;
+    color: #a4c6ff;
+    font-weight: bold;
     margin-top: 1px;
     padding: 2px;
     text-transform: lowercase;
@@ -201,22 +207,26 @@ font-size: 10px;
 .c-site {
     text-transform: lowercase;
     text-decoration: none;
-    color: #b8b9be;
+    margin-left: 9px;
+    color: #cbff2f;
 }
 
 
-.c-site:hover {color: white;}
+.c-site:hover {
+    color: white;
+}
+
 .c-timestamp {
     float: right;
-    opacity: 94%;
 }
+
 .c-text {
     margin: 0;
     padding: 10px;
     font-size: 13px;
     width: 94%;
     text-align: justify;
-    color: #e2d08f;
+    color: #91bbfb;
 }
 
 /* Pagination */
@@ -304,25 +314,24 @@ font-size: 10px;
         /*glow txt*/
         
 .glow {
-  font-size: 80px;
-  color: #261204;
+  font-size: 79px;
+  color: #000;
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #c9e6f9, 0 0 20px #c09182, 0 0 30px #cbc000, 0 0 40px #853b00, 0 0 50px #9f863c, 0 0 60px #423e29, 0 0 70px #ffd968;
+    text-shadow: 0 0 10px #c9e8f9, 0 0 20px #82b6c0, 0 0 30px #0072cb, 0 0 40px #004b85, 0 0 50px #9f863c, 0 0 60px #423e29, 0 0 70px #ffd968;
   }
   
   to {
-    text-shadow: 0 0 20px #e2e1ae, 0 0 30px #c8b454, 0 0 40px #ffe04d, 0 0 50px #ffd94d, 0 0 60px #726034, 0 0 70px #600d0d, 0 0 80px #784a34;
+    text-shadow: 0 0 20px #e2e1ae, 0 0 30px #5488c8, 0 0 40px #4d9dff, 0 0 50px #4dc6ff, 0 0 60px #a2dcef, 0 0 70px #81b6d3, 0 0 80px #71cbff;
   }
 }
    p2 {
-            font-family: 'cafe';
-            color: #ddd;
-            margin-left: 420px;
+            font-family: 'arial black';
+            color: #4d6388;
             letter-spacing: 4px;
             font-weight: bolder;
 
@@ -337,9 +346,9 @@ font-size: 10px;
         }
         
         p3 {
-            font-family: 'tahoma';
+            font-family: 'arial black';
             font-weight: bolder;
-            margin-left: 150px;
+            margin-left: 190px;
 
         }
 
@@ -347,7 +356,7 @@ font-size: 10px;
   /* Firefox */
   * {
     scrollbar-width: thin;
-    scrollbar-color: #474688 #000000;
+    scrollbar-color: #5799ff #000000;
   }
 
   /* Chrome, Edge, and Safari */
@@ -360,7 +369,7 @@ font-size: 10px;
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #302f5b;
+    background-color: #2242dc;
     border-radius: 10px;
     border: 3px solid #ffffff;
   }
